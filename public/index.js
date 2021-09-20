@@ -6,7 +6,7 @@ var connectionOptions={
     "transports":["websocket"]
 }
 
-this.socket=io.connect("http://localhost:3000",connectionOptions);
+this.socket=io.connect("https://webchatroomapplication.herokuapp.com",connectionOptions);
 
 var landingDiv=document.getElementById("landingdiv");
 var chatDiv=document.getElementById("chatdiv")
